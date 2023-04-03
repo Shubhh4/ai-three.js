@@ -18,7 +18,7 @@ export const downloadCanvasToImage = () => {
     });
   
   export const getContrastingColor = (color) => {
-    // Remove the '#' character if it exists
+    //Remove the '#' character if it exists
     const hex = color.replace("#", "");
   
     // Convert the hex string to RGB values
